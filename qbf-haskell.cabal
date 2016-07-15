@@ -1,0 +1,16 @@
+name:                   qbf-haskell
+version:                0.1.0.0
+license-file:           LICENSE
+author:                 Daniel Waterworth
+maintainer:             da.waterworth@gmail.com
+build-type:             Simple
+cabal-version:          >=1.18
+
+executable qbf-haskell
+  main-is:              qbf.hs
+  build-depends:        base >=4.8 && <4.9,
+                        transformers,
+                        lens,
+                        unordered-containers,
+                        hashable
+  default-language:     Haskell2010
